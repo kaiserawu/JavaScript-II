@@ -1,6 +1,13 @@
 // ==== Challenge 1: Write your own closure ====
 // Write a simple closure of your own creation.  Keep it simple!
-
+function displayColor() {
+  let color = 'purple';
+  function logColor (c) {
+    console.log(c);
+  }
+  logColor(color);
+}
+displayColor();
 
 // ==== Challenge 2: Create a counter function ====
 const counter = () => {
